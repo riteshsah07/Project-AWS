@@ -34,4 +34,4 @@ Basically we have use an static website as a Demo to perform and test our perfor
 Step 2: We have created an autoscaling group so that the traffic on the page could be distribute across the replica of the EC2 instance .To help in distribute traffic across the network Load Balancer is automatically applied to the Auto Scaling group.
 Step 3: After creating Auto Scaling Group we have navigate to EC2 which was created ,click on the EC2 and copied the public IPV4 address and paste it to the browser with port 8080 which was 54.162.70.49:8080 (8080 is a communication endpoint that web servers use to listen for incoming requests). 
 Step 4: Finally we have check the performance of the site through BlazeMeter.
-
+and test whether it is handling traffic or not with the analytics provided by the BlazeMeter.
